@@ -1,11 +1,12 @@
 {
     "name": "edition-semicolon",
-    "displayName": "edition-semicolon",
-    "description": "",
+    "displayName": "Edition Semicolon",
+    "description": "Edition Semicolon helps you to publish your files over IPFS Network",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.51.0"
     },
+    "publisher": "RishabhLive",
     "categories": [
         "Other"
     ],
@@ -14,12 +15,10 @@
     ],
     "main": "./extension.js",
     "contributes": {
-        "commands": [
-            {
-                "command": "edition-semicolon.helloWorld",
-                "title": "Publish to Edition Semicolon"
-            }
-        ]
+        "commands": [{
+            "command": "edition-semicolon.helloWorld",
+            "title": "Publish to Edition Semicolon"
+        }]
     },
     "scripts": {
         "lint": "eslint .",
@@ -40,5 +39,6 @@
     "dependencies": {
         "ipfs-http-client": "^48.1.2",
         "node-fetch": "^2.6.1"
-    }
+    },
+    "repository": {}
 }

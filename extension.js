@@ -46,13 +46,14 @@ function activate(context) {
 
             vscode.window.showInformationMessage(`Content Published.  Your Content ID : ${json.id}`);
             console.log(`Content Published.  Your Content ID : ${json.id}`);
+            vscode.env.openExternal(vscode.Uri.parse(`https://edition-semicolon.rishabh.live/r/${json.id}`));
         });
 
     });
 
     context.subscriptions.push(disposable);
 }
-exports.activate = activate;
+// exports.activate = activate;
 
 // this method is called when your extension is deactivated
 function deactivate() {}
