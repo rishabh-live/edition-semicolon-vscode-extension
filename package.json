@@ -2,7 +2,7 @@
     "name": "edition-semicolon",
     "displayName": "Edition Semicolon",
     "description": "Edition Semicolon helps you to publish your files over IPFS Network",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.51.0"
     },
